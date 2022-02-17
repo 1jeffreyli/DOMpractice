@@ -25,3 +25,20 @@ const pText = document.createElement('p');
     hText.textContent = 'I\'m a blue h3!';
     hText.style.color = 'blue';
     container.appendChild(hText);
+
+// A div tag with a black border and pink background color with
+// an h1 that says "I'm a div"
+// a p that says "ME TOO!"
+    const divContent = document.createElement('div');
+    divContent.style.backgroundColor = 'pink';
+    divContent.style.borderColor = 'black';
+    divContent.style.borderStyle = 'dotted';
+    container.appendChild(divContent);
+
+        const divH = document.createElement('h1');
+        divH.textContent = 'I\'m a div';
+        divContent.appendChild(divH);
+
+        const divP = document.createElement('p');
+        divP.textContent = 'ME TOO!';
+        divContent.appendChild(divP);
